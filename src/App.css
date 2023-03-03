@@ -1,14 +1,10 @@
 body {
   background-color: white;
-  max-width: 500px;
+  max-width: 477px;
   margin: 0;
   padding: 0;
 }
 
-.root {
-  width: 100%;
-
-}
 nav {
   display: flex;
   flex-direction: row;
@@ -43,21 +39,22 @@ nav {
 .Footer {
   width: 100%;
   display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #252525;
   color: #AAAAAA;
   line-height: 30px;
-  text-align: center;
-  margin: 0px;
 }
 
 .HomeBody{
   background: url("Cali1.JPG") no-repeat center center;
-  background-size: cover;
+  background-size: inherit;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  width: 100%;
+  position: relative;
+  max-width: 477px;
   height: 500px;
   border: solid 2px red;
   padding: 45px 23px;
@@ -94,6 +91,12 @@ nav {
 
 .AboutPage {
   background-color: #FFF7ED;
+  max-width: 477px;
+  padding-bottom: 10px;
+}
+
+.AboutHeroImage{
+  width: 100%;
 }
 
 .AboutTextPanel {
